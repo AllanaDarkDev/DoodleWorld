@@ -1,0 +1,87 @@
+body {
+    background-color: #03071e;
+    color: #dc2f02;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+}
+
+div {
+    border-radius: 10%;
+    padding-left: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 0px;
+    padding: 5;
+}
+
+h2 {
+    border-left: solid rgba(244, 141, 6, 0.459) 3px;
+    border-right: solid rgba(244, 141, 6, 0.459) 3px;
+}
+
+.torre{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    text-align: center;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.row1 {
+    background-color: rgba(55, 6, 23, 0.7);
+    color: rgba(232, 93, 4, 1);
+    transition: 0.3s;
+}
+
+.row2 {
+    background-color: rgba(106, 4, 15, 0.7);
+    color: rgba(244, 140, 6, 1);
+    text-align: center;
+    transition: 0.3s;
+    justify-content: space-around;
+    align-items:start;
+}
+
+.row3 {
+    background-color: rgba(157, 2, 8, 0.7);
+    color: rgba(250, 163, 7, 1);
+    text-align: center;
+    transition: 0.3s;
+    justify-content: space-around;
+    align-items:start;
+}
+
+.row4 {
+
+    background-color: rgba(208, 0, 0, 0.7);
+    color: rgba(255, 186, 8);
+    text-align: center;
+    transition: 0.3s;
+    align-items:start;
+}
+
+.row1:hover, .row2:hover, .row3:hover, .row4:hover {
+    border-style: dashed; 
+    box-sizing: border-box;
+    border-color: rgba(244, 141, 6, 0.459)
+}
